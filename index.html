@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel = "stylesheet" href="estilo.css">
+    <script src = "scripts.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type ="text" placeholder="Insira o nome da cidade" spellcheck="false" >
+            <button><img src ="assets/search.png"></button>
+        </div>
+        <div class = "erro">
+            <p>Nome da cidade Inválido</p>
+        </div>
+        <div class="clima">
+            <img src = "assets/partly-cloudy.png" class = "img_clima">
+            <h1 class = "temperatura"></h1>
+            <h2 class = "cidade"></h2>
+            <div class ="detalhes">
+                <div class ="coluna">
+                    <img src = "assets/humidity.png">
+                    <div>
+                        <p class="humidade"></p>
+                        <p>Humidade</p>
+                    </div>
+                </div>
+                <div class ="coluna">
+                    <img src = "assets/wind.png">
+                    <div>
+                        <p class="vento"></p>
+                        <p>Vento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
